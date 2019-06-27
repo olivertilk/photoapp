@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
     <head>
-        <title>CS142 Project #6</title>
+        <title>Photo sharing app</title>
     </head>
     <body>
-        <h1>CS142 Project #6</h1>
+        <h1>Photo sharing app</h1>
         <p>
             If you can see this message it means your simple Node.js web server is working!
         </p>
@@ -17,28 +17,14 @@
             </ul>
         </p>
         <p>
-            Your implementation should make the URL <a href="/user/list">/user/list</a> return the users of the Photo App
+            The URL <a href="/user/list">/user/list</a> should return the users of the photo app
             encoded in JSON.
         </p>
         <p>
-            Your solution to project #6 should be served by this web server from the following files
-            that can be clicked on to test in your browser:
+            Access the photo sharing app below:
         </p>
         <ul>
             <li>Photo Sharing App - <a href="photo-share.html">photo-share.html</a></li>
         </ul>
-        <script type="text/javascript">
-            //<![CDATA[
-            // Angular doesn't work using the file protocol and it dies with an obscure error
-            // message.  Since the project's files are accessible using either the file or
-            // http protocols we warn the user if they are not using http.
-            if(window.location.protocol !== 'http:') {
-                var msg = "Project #6 files must be accessed with the http protocol (not from local files)."  +
-                                "\nUse the URL http://localhost:3000";
-                console.error(msg);
-                alert(msg);
-            }
-            //]]>
-        </script>
     </body>
 </html>
