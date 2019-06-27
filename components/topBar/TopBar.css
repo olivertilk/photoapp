@@ -1,0 +1,21 @@
+.cs142-topbar-appBar {
+  height: 60;
+  justify-content: 'center';
+}
+
+.cs142-topbar-context {
+	position: absolute;
+	right: 30px;
+}
+
+.cs142-topbar-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.cs142-topbar-logout {
+	display: inline;
+}
